@@ -6,6 +6,6 @@
 </head>
 <body>
     <h1>Welcome to PROJECT DEMO!</h1>
-    <script src="{{ url_for('static', filename;'PROJECT_DEMO.js') }}"></script>
+    <script src="{{ url_for('static', filename='PROJECT_DEMO.js') }}"></script>
 </body>
 </html>
