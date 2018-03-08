@@ -108,7 +108,8 @@ def create_files(root, slug, name):
         finally:
             template_file.close()
             target_file.close()
-            print("Created: {}".format(file_name))
+            file_name
+            print("Created: {}".format(file_name[15:]))
 
 
 def main():
