@@ -83,7 +83,7 @@ def create_dirs(root, slug):
         for dir in DIRS:
             try:
                 os.mkdir(os.path.join(root, dir.format(project_slug=slug)))
-            except os.FileExistsError:
+            except FileExistsError:
                 pass
 
 
